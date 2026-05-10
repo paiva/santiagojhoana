@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago & Jhoana - May 23, 2026</title>
+    <meta name="description" content="Santiago Paiva and Jhoana Moreno's Wedding - May 23, 2026 in Montreal">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+    </div>
+
+    <!-- Wedding Invitation Banner -->
+    <div class="invitation-banner">
+        <a href="docs/Wedding Invitation ONLINE Final - Ingles .pdf" class="invitation-link" id="invitation-link" target="_blank">
+            <i class="fas fa-envelope-open-text"></i>
+            <span data-i18n="common.invitation_banner">View Our Wedding Invitation</span>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="img/Logo_S_y_J.png" alt="Santiago & Jhoana" class="logo">
+            <h1 class="names">Santiago & Jhoana</h1>
+            <p class="date">May 23, 2026</p>
+            <p class="location">Montreal, Quebec</p>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#ceremony" data-i18n="nav.ceremony">Ceremony</a>
+        <a href="#livestream" data-i18n="nav.livestream">Livestream</a>
+        <a href="#reception" data-i18n="nav.reception">Reception</a>
+        <a href="#schedule" data-i18n="nav.schedule">Schedule</a>
+        <a href="#gifts" data-i18n="nav.gifts">Gifts</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <!-- Ceremony Section -->
+    <section id="ceremony" class="section">
+        <div class="container">
+            <div class="section-icon">
+                <i class="fas fa-church"></i>
+            </div>
+            <h2 data-i18n="ceremony.title">The Ceremony</h2>
+
+            <div class="venue-info">
+                <h3 data-i18n="ceremony.venue">Chapelle Notre-Dame du Sacré-Cœur</h3>
+                <p class="venue-subtitle" data-i18n="ceremony.venue_full">Basilique de Notre-Dame de Montréal</p>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong data-i18n="ceremony.address_label">Address:</strong>
+                            <p><a href="https://maps.google.com/?q=424+Saint+Sulpice+Street,+Montreal,+QC+H2Y+2V5" target="_blank" class="address-link">424 Saint Sulpice Street<br>Montreal, QC H2Y 2V5</a></p>
+                            <p class="map-note" data-i18n="common.map_note">(Click to view in Map)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-subway"></i>
+                        <div>
+                            <strong data-i18n="ceremony.metro_label">Metro:</strong>
+                            <p>Place D'Armes</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <p><strong data-i18n="ceremony.time_label">Start Time:</strong> 3:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="important-notice">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <div>
+                        <strong data-i18n="ceremony.notice_title">Important Notice:</strong>
+                        <p data-i18n="ceremony.notice_text">Please do not throw rice or other items inside or outside the church. We will provide ribbon wands for a beautiful celebration as we exit!</p>
+                    </div>
+                </div>
+
+                <div class="parking-notice">
+                    <i class="fas fa-parking"></i>
+                    <p data-i18n="ceremony.parking_note">Limited parking available at the Basilica due to F1 weekend traffic. Please plan accordingly.</p>
+                </div>
+
+                <div class="ceremony-links">
+                    <a href="docs/Afiche Iglesia (1).pdf" class="btn btn-primary" target="_blank">
+                        <i class="fas fa-file-pdf"></i>
+                        <span data-i18n="ceremony.welcome_sign">Welcome Sign</span>
+                    </a>
+                    <a href="docs/Ceremony_Transcript.pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-file-alt"></i>
+                        <span data-i18n="ceremony.transcript">Ceremony Transcript</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Livestream Section -->
+    <section id="livestream" class="section">
+        <div class="container">
+            <div class="section-icon">
+                <i class="fab fa-youtube"></i>
+            </div>
+            <h2 data-i18n="livestream.title">Watch Live</h2>
+            <p data-i18n="livestream.description" class="livestream-description">Can't join us in person? Watch our ceremony live from anywhere in the world!</p>
+
+            <div class="livestream-container">
+                <div class="livestream-placeholder">
+                    <i class="fas fa-play-circle"></i>
+                    <p data-i18n="livestream.placeholder">Livestream will be embedded here on the wedding day</p>
+                    <p class="livestream-time" data-i18n="livestream.time">May 23, 2026 at 3:30 PM (EDT)</p>
+                </div>
+                <!-- YouTube embed will be added here later:
+                <div class="video-responsive">
+                    <iframe width="560" height="315" src="YOUR_YOUTUBE_EMBED_URL"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reception Section -->
+    <section id="reception" class="section section-alt">
+        <div class="container">
+            <div class="section-icon">
+                <i class="fas fa-glass-cheers"></i>
+            </div>
+            <h2 data-i18n="reception.title">The Reception</h2>
+
+            <div class="venue-info">
+                <h3>L'Ambroisie</h3>
+                <p class="venue-subtitle" data-i18n="reception.cuisine">Cuisine Française</p>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong data-i18n="reception.address_label">Address:</strong>
+                            <p><a href="https://maps.google.com/?q=4020+Saint-Ambroise+Street,+local+140,+Montreal,+QC+H4C+3J9" target="_blank" class="address-link">4020 Saint-Ambroise Street, local #140<br>Montreal, QC H4C 3J9</a></p>
+                            <p class="map-note" data-i18n="common.map_note">(Click to view in Map)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <p><strong data-i18n="reception.time_label">Start Time:</strong> <span data-i18n="reception.time">5:30 PM (Welcome Cocktails)</span></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-subway"></i>
+                        <div>
+                            <strong data-i18n="reception.metro_label">Metro:</strong>
+                            <p>Saint-Henri</p>
+                            <p class="small-text" data-i18n="reception.commute">(30-35 min from Basilica)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-parking"></i>
+                        <div>
+                            <strong data-i18n="reception.parking_label">Parking:</strong>
+                            <p data-i18n="reception.parking_info">$10 per car available at venue</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="important-notice">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <div>
+                        <strong data-i18n="reception.dietary_notice_title">Important Notice:</strong>
+                        <p data-i18n="reception.dietary_notice_text">Please inform us if you have any dietary restrictions, allergies, or preferences (vegetarian, vegan, etc.) so we can accommodate your needs.</p>
+                    </div>
+                </div>
+
+                <div class="reception-links">
+                    <a href="docs/MapParking.pdf" class="btn btn-primary" target="_blank">
+                        <i class="fas fa-map"></i>
+                        <span data-i18n="reception.parking_map">Parking Map & Guide</span>
+                    </a>
+                    <a href="docs/Menu Ambroisie (4).pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-utensils"></i>
+                        <span data-i18n="menu.view_menu">View Full Menu</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section">
+        <div class="container">
+            <div class="section-icon">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h2 data-i18n="schedule.title">Schedule</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">3:30 PM</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-ring"></i>
+                        <h3 data-i18n="schedule.ceremony">Wedding Ceremony</h3>
+                        <p data-i18n="schedule.ceremony_desc">Chapelle Notre-Dame du Sacré-Cœur</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">4:30 PM</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-camera"></i>
+                        <h3 data-i18n="schedule.photos">Photos & Transport</h3>
+                        <p data-i18n="schedule.photos_desc">Travel to reception venue</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">5:30 PM</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-cocktail"></i>
+                        <h3 data-i18n="schedule.cocktail">Welcome Cocktail</h3>
+                        <p>L'Ambroisie</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">6:30 PM</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-utensils"></i>
+                        <h3 data-i18n="schedule.dinner">Dinner</h3>
+                        <p data-i18n="schedule.dinner_desc">French cuisine</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">9:00 PM</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-music"></i>
+                        <h3 data-i18n="schedule.dance">Dance</h3>
+                        <p data-i18n="schedule.dance_desc">Let's celebrate!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">12:00 AM</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-moon"></i>
+                        <h3 data-i18n="schedule.end">End of Reception</h3>
+                        <p data-i18n="schedule.end_desc">Safe travels home</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gifts Section -->
+    <section id="gifts" class="section section-alt">
+        <div class="container">
+            <div class="section-icon">
+                <i class="fas fa-gift"></i>
+            </div>
+            <h2 data-i18n="gifts.title">Gifts</h2>
+
+            <div class="gifts-content">
+                <p class="gifts-message"><span data-i18n="gifts.message_part1">Your presence at our wedding is the greatest gift of all.</span> <strong data-i18n="gifts.message_part2">Gifts are completely optional,</strong> <span data-i18n="gifts.message_part3">but if you wish to honor us with a contribution towards our future together, we would be grateful.</span></p>
+
+                <div class="gift-info">
+                    <i class="fas fa-envelope"></i>
+                    <h3 data-i18n="gifts.cash_title">Monetary Gifts (Optional)</h3>
+                    <ul class="gift-options">
+                        <li><strong data-i18n="gifts.etransfer_label">E-Transfer:</strong> <span data-i18n="gifts.etransfer_value">paiva.santiago@gmail.com</span></li>
+                        <li><strong data-i18n="gifts.cash_label">Cash:</strong> <span data-i18n="gifts.cash_value">Bring an envelope to the reception. We will have a small box to collect envelopes.</span></li>
+                    </ul>
+                </div>
+
+                <div class="photobook-info">
+                    <h3 data-i18n="gifts.photobook_title">Guest Photo Book</h3>
+                    <p data-i18n="gifts.photobook_desc">We will have a guestbook at the reception and welcome any messages from you! We'll also have a Polaroid camera available to print an image of you (if you'd like) to add to our memory book. Thank you for sharing this special day with us!</p>
+                    <a href="docs/Photo Guest Book.pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-camera-retro"></i>
+                        <span data-i18n="gifts.photobook_btn">Photo Book Information</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-icon">
+                <i class="fas fa-address-book"></i>
+            </div>
+            <h2 data-i18n="contact.title">Contact & Vendors</h2>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h3 data-i18n="contact.couple_title">The Couple</h3>
+                    <p>Jhoana Moreno & Santiago Paiva</p>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i> <span>paiva.santiago@gmail.com</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> <span>514-686-8779</span>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3 data-i18n="contact.venue_title">Reception Venue</h3>
+                    <p>L'Ambroisie</p>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i> <span>info@ambroisie.ca</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> <span>514-932-0641</span>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-camera"></i>
+                    <h3 data-i18n="contact.photographer_title">Photographer</h3>
+                    <p>Denise Barria</p>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i> <span>info@denisebarria.com</span>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-record-vinyl"></i>
+                    <h3>DJ</h3>
+                    <p>Jose Pardal</p>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i> <span>josepardaldj@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="img/Logo_S_y_J.png" alt="J & S" class="footer-logo">
+            <p class="footer-text" data-i18n="footer.text">We can't wait to celebrate with you!</p>
+            <p class="footer-date">May 23, 2026 | Montreal, Quebec</p>
+            <p class="footer-copyright">&copy; 2026 Santiago & Jhoana</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
