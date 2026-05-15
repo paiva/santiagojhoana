@@ -15,6 +15,7 @@ const translations = {
             schedule: "Schedule",
             menu: "Menu",
             gifts: "Gifts",
+            photos: "Photos",
             contact: "Contact"
         },
         ceremony: {
@@ -83,6 +84,14 @@ const translations = {
             photobook_desc: "We will have a guestbook at the reception and welcome any messages from you! We'll also have a Polaroid camera available to print an image of you (if you'd like) to add to our memory book. Thank you for sharing this special day with us!",
             photobook_btn: "Photo Book Information"
         },
+        photos: {
+            title: "Share Your Photos & Videos",
+            message: "We'd love to see the wedding through your eyes! Please share any photos or videos you take during our special day.",
+            upload_title: "Upload Your Media",
+            upload_desc: "Click the button below to access our shared Google Photos album and upload your photos and videos.",
+            upload_btn: "Upload to Google Photos",
+            note: "Thank you for helping us preserve these precious memories!"
+        },
         contact: {
             title: "Contact & Vendors",
             couple_title: "The Couple",
@@ -110,12 +119,13 @@ const translations = {
             schedule: "Horario",
             menu: "Menú",
             gifts: "Regalos",
+            photos: "Fotos",
             contact: "Contacto"
         },
         ceremony: {
             title: "La Ceremonia",
             venue: "Capilla Notre-Dame du Sacré-Cœur",
-            venue_full: "Basílica de Notre-Dame de Montreal",
+            venue_full: "Basílica de Notre-Dame de Montréal",
             address_label: "Dirección:",
             metro_label: "Metro:",
             time_label: "Hora de Inicio:",
@@ -127,7 +137,7 @@ const translations = {
         },
         livestream: {
             title: "Ver en Vivo",
-            description: "¿No puedes acompañarnos en persona? ¡Mira nuestra ceremonia en vivo desde cualquier parte del mundo!",
+            description: "¿No pueden acompañarnos en persona? ¡Miren nuestra ceremonia en vivo desde cualquier parte del mundo!",
             placeholder: "La transmisión en vivo se insertará aquí el día de la boda",
             time: "23 de mayo de 2026 a las 3:30 PM (EDT)"
         },
@@ -178,6 +188,14 @@ const translations = {
             photobook_desc: "¡Tendremos un libro de invitados en la recepción y damos la bienvenida a cualquier mensaje de ustedes! También tendremos una cámara Polaroid disponible para imprimir una foto suya (si lo desean) para agregar a nuestro libro de recuerdos. ¡Gracias por compartir este día especial con nosotros!",
             photobook_btn: "Información del Libro de Fotos"
         },
+        photos: {
+            title: "Comparte tus Fotos y Videos",
+            message: "¡Nos encantaría ver la boda a través de tus ojos! Por favor comparte las fotos o videos que tomes durante nuestro día especial.",
+            upload_title: "Sube tus Archivos",
+            upload_desc: "Haz clic en el botón a continuación para acceder a nuestro álbum compartido de Google Photos y subir tus fotos y videos.",
+            upload_btn: "Subir a Google Photos",
+            note: "¡Gracias por ayudarnos a preservar estos preciosos recuerdos!"
+        },
         contact: {
             title: "Contacto y Proveedores",
             couple_title: "Los Novios",
@@ -205,6 +223,7 @@ const translations = {
             schedule: "Horaire",
             menu: "Menu",
             gifts: "Cadeaux",
+            photos: "Photos",
             contact: "Contact"
         },
         ceremony: {
@@ -272,6 +291,14 @@ const translations = {
             photobook_title: "Livre Photo des Invités",
             photobook_desc: "Nous aurons un livre d'or à la réception et accueillons tous vos messages! Nous aurons également un appareil photo Polaroid disponible pour imprimer votre photo (si vous le souhaitez) à ajouter à notre livre de souvenirs. Merci de partager cette journée spéciale avec nous!",
             photobook_btn: "Information sur le Livre Photo"
+        },
+        photos: {
+            title: "Partagez vos Photos et Vidéos",
+            message: "Nous aimerions voir le mariage à travers vos yeux! Veuillez partager toutes les photos ou vidéos que vous prenez pendant notre journée spéciale.",
+            upload_title: "Ajoutez vos Médias",
+            upload_desc: "Cliquez sur le bouton ci-dessous pour accéder à notre album Google Photos partagé et ajouter vos photos et vidéos.",
+            upload_btn: "Ajouter sur Google Photos",
+            note: "Merci de nous aider à préserver ces précieux souvenirs!"
         },
         contact: {
             title: "Contact et Fournisseurs",

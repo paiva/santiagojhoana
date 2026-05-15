@@ -33,6 +33,28 @@ body {
 }
 
 /* =======================
+   SITE LOGO
+   ======================= */
+.site-logo {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 1000;
+}
+
+.site-logo img {
+    width: 120px;
+    height: auto;
+    transition: var(--transition);
+    opacity: 0.9;
+}
+
+.site-logo img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/* =======================
    LANGUAGE SELECTOR
    ======================= */
 .language-selector {
@@ -99,12 +121,27 @@ body {
     animation: fadeIn 1s ease;
 }
 
-.logo {
-    max-width: 300px;
+.couple-photo {
+    max-width: 350px;
     width: 100%;
     height: auto;
     margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1.5s ease;
+    position: relative;
+}
+
+.couple-photo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3);
+    pointer-events: none;
 }
 
 .names {
@@ -328,6 +365,17 @@ h2 {
     font-size: 0.85rem;
     font-style: italic;
     color: var(--color-blue) !important;
+}
+
+.map-note-link {
+    color: var(--color-blue);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.map-note-link:hover {
+    color: var(--color-yellow);
+    text-decoration: underline;
     margin-top: 5px;
 }
 
@@ -398,6 +446,10 @@ h2 {
     color: var(--color-white);
 }
 
+.btn-primary i {
+    color: var(--color-white) !important;
+}
+
 .btn-primary:hover {
     background: #d4a057;
     transform: translateY(-3px);
@@ -407,6 +459,10 @@ h2 {
 .btn-secondary {
     background: var(--color-blue);
     color: var(--color-white);
+}
+
+.btn-secondary i {
+    color: var(--color-white) !important;
 }
 
 .btn-secondary:hover {
@@ -663,6 +719,71 @@ h2 {
 }
 
 /* =======================
+   MENU SECTION
+   ======================= */
+.menu-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-message {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--color-gray);
+    margin-bottom: 30px;
+}
+
+.menu-info {
+    text-align: center;
+}
+
+/* =======================
+   PHOTOS SECTION
+   ======================= */
+.photos-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photos-message {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--color-gray);
+    margin-bottom: 30px;
+}
+
+.photo-sharing-info {
+    text-align: center;
+}
+
+.photo-sharing-info > i {
+    font-size: 2.5rem;
+    color: var(--color-yellow);
+    margin-bottom: 15px;
+}
+
+.photo-sharing-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--color-black);
+}
+
+.photo-sharing-info p {
+    color: var(--color-gray);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.small-note {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--color-gray);
+    margin-top: 20px;
+}
+
+/* =======================
    CONTACT SECTION
    ======================= */
 .contact-grid {
@@ -679,6 +800,9 @@ h2 {
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
 }
 
 .contact-card:hover {
@@ -986,8 +1110,17 @@ h2 {
         padding: 25px;
     }
 
-    .logo {
-        max-width: 200px;
+    .couple-photo {
+        max-width: 280px;
+    }
+
+    .site-logo {
+        top: 80px;
+        left: 30px;
+    }
+
+    .site-logo img {
+        width: 100px;
     }
 
     .footer-text {
@@ -1171,8 +1304,22 @@ h2 {
         font-size: 0.9rem;
     }
 
-    .logo {
-        max-width: 180px;
+    .couple-photo {
+        max-width: 250px;
+        border-radius: 15px;
+    }
+
+    .couple-photo::after {
+        border-radius: 15px;
+    }
+
+    .site-logo {
+        top: 70px;
+        left: 20px;
+    }
+
+    .site-logo img {
+        width: 80px;
     }
 
     .footer {
