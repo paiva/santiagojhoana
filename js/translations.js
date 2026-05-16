@@ -50,7 +50,8 @@ const translations = {
             parking_info: "$10 per car for the entire event",
             dietary_notice_title: "Important Notice:",
             dietary_notice_text: "Please inform us if you have any dietary restrictions, allergies, or preferences (vegetarian, vegan, etc.) so we can accommodate your needs.",
-            parking_map: "Parking Map & Guide"
+            parking_map: "Parking Map & Guide",
+            welcome_sign: "Welcome Sign"
         },
         schedule: {
             title: "Schedule",
@@ -155,7 +156,8 @@ const translations = {
             parking_info: "$10 por auto para todo el evento",
             dietary_notice_title: "Aviso Importante:",
             dietary_notice_text: "Por favor infórmennos si tienen alguna restricción alimentaria, alergias o preferencias (vegetariano, vegano, etc.) para que podamos satisfacer sus necesidades.",
-            parking_map: "Mapa y Guía de Estacionamiento"
+            parking_map: "Mapa y Guía de Estacionamiento",
+            welcome_sign: "Cartel de Bienvenida"
         },
         schedule: {
             title: "Horario",
@@ -260,7 +262,8 @@ const translations = {
             parking_info: "10$ par voiture pour toute la soirée",
             dietary_notice_title: "Avis Important:",
             dietary_notice_text: "Veuillez nous informer si vous avez des restrictions alimentaires, des allergies ou des préférences (végétarien, végétalien, etc.) afin que nous puissions répondre à vos besoins.",
-            parking_map: "Plan et Guide de Stationnement"
+            parking_map: "Plan et Guide de Stationnement",
+            welcome_sign: "Panneau de Bienvenue"
         },
         schedule: {
             title: "Horaire",
