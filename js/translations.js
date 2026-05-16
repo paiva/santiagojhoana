@@ -3,7 +3,8 @@ const translations = {
     en: {
         common: {
             map_note: "(Click to view in Map)",
-            invitation_banner: "View Our Wedding Invitation"
+            invitation_banner: "View Our Wedding Invitation",
+            orange_line: "(Orange Line)"
         },
         hero: {
             welcome: "Welcome to Santiago & Jhoana's Wedding"
@@ -46,7 +47,7 @@ const translations = {
             metro_label: "Metro:",
             commute: "(30-35 min from Basilica)",
             parking_label: "Parking:",
-            parking_info: "$10 per car available at venue",
+            parking_info: "$10 per car for the entire event",
             dietary_notice_title: "Important Notice:",
             dietary_notice_text: "Please inform us if you have any dietary restrictions, allergies, or preferences (vegetarian, vegan, etc.) so we can accommodate your needs.",
             parking_map: "Parking Map & Guide"
@@ -107,7 +108,8 @@ const translations = {
     es: {
         common: {
             map_note: "(Clic para ver en Mapa)",
-            invitation_banner: "Ver Nuestra Invitación de Boda"
+            invitation_banner: "Ver Nuestra Invitación de Boda",
+            orange_line: "(Línea Naranja)"
         },
         hero: {
             welcome: "Bienvenidos a la Boda de Santiago & Jhoana"
@@ -150,7 +152,7 @@ const translations = {
             metro_label: "Metro:",
             commute: "(30-35 min desde la Basílica)",
             parking_label: "Estacionamiento:",
-            parking_info: "$10 por auto disponible en el lugar",
+            parking_info: "$10 por auto para todo el evento",
             dietary_notice_title: "Aviso Importante:",
             dietary_notice_text: "Por favor infórmennos si tienen alguna restricción alimentaria, alergias o preferencias (vegetariano, vegano, etc.) para que podamos satisfacer sus necesidades.",
             parking_map: "Mapa y Guía de Estacionamiento"
@@ -211,14 +213,15 @@ const translations = {
     fr: {
         common: {
             map_note: "(Cliquer pour voir sur la Carte)",
-            invitation_banner: "Voir Notre Invitation de Mariage"
+            invitation_banner: "Voir Notre Invitation de Mariage",
+            orange_line: "(Ligne Orange)"
         },
         hero: {
             welcome: "Bienvenue au Mariage de Santiago & Jhoana"
         },
         nav: {
             ceremony: "Cérémonie",
-            livestream: "Direct",
+            livestream: "En Direct",
             reception: "Réception",
             schedule: "Horaire",
             menu: "Menu",
@@ -254,7 +257,7 @@ const translations = {
             metro_label: "Métro:",
             commute: "(30-35 min depuis la Basilique)",
             parking_label: "Stationnement:",
-            parking_info: "10$ par voiture disponible sur place",
+            parking_info: "10$ par voiture pour toute la soirée",
             dietary_notice_title: "Avis Important:",
             dietary_notice_text: "Veuillez nous informer si vous avez des restrictions alimentaires, des allergies ou des préférences (végétarien, végétalien, etc.) afin que nous puissions répondre à vos besoins.",
             parking_map: "Plan et Guide de Stationnement"
