@@ -99,6 +99,10 @@ const translations = {
             couple_title: "The Couple",
             venue_title: "Reception Venue",
             photographer_title: "Photographer",
+            mc_dj_title: "MC & DJ",
+            artist_title: "Artist & Decoration",
+            decoration_title: "Decoration",
+            livestream_title: "Livestream & Visual",
             resources_title: "Additional Resources",
             invitation: "Wedding Invitation"
         },
@@ -205,6 +209,10 @@ const translations = {
             couple_title: "Los Novios",
             venue_title: "Lugar de la Recepción",
             photographer_title: "Fotógrafa",
+            mc_dj_title: "MC & DJ",
+            artist_title: "Artista y Decoración",
+            decoration_title: "Decoración",
+            livestream_title: "Transmisión y Visual",
             resources_title: "Recursos Adicionales",
             invitation: "Invitación de Boda"
         },
@@ -311,6 +319,10 @@ const translations = {
             couple_title: "Les Mariés",
             venue_title: "Lieu de Réception",
             photographer_title: "Photographe",
+            mc_dj_title: "MC & DJ",
+            artist_title: "Artiste et Décoration",
+            decoration_title: "Décoration",
+            livestream_title: "Diffusion en Direct et Visuel",
             resources_title: "Ressources Supplémentaires",
             invitation: "Invitation de Mariage"
         },
